@@ -1,0 +1,154 @@
+/* Generale*/
+:root {
+    --primary-color: #0c8750;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    min-height: 100vh;
+  }
+  
+.back
+{
+    background: url("/img/fond1.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.backgroundPresentationPage
+{
+
+
+    position:absolute;
+    z-index:-1;
+    top:0;
+    width:100%;
+    height:100vh;
+    left:0;
+    right:0;
+    bottom:30%;
+    box-shadow:inset 0 -40px 60px 10px #ff0060
+}
+
+.homeTitle
+{
+    text-align:center;
+    padding:60px 0 40px
+}
+
+.white-text-container .fa-icon,.white-text-container a,.white-text-container h1,.white-text-container h2,.white-text-container h3,.white-text-container h4,.white-text-container h5,.white-text-container p
+{
+    color:#fff
+}
+
+.col-xs-12
+{
+    position:relative;
+    min-height:1px;
+    padding-left:15px;
+    padding-right:15px
+}
+
+.homeContainer
+{
+    margin-right:auto;
+    margin-left:auto;
+    padding-left:15px;
+    padding-right:15px;
+    content:" ";
+    display:table;
+    width:80%;
+}
+
+.card{border-radius:.25rem;background-color:#fff;border:1px solid rgba(0,0,0,.125);margin-bottom:3rem}
+.card .h2,.card h2{margin-top:0;margin-bottom:40px}
+.card .card-block{padding:1rem}
+
+.cardContent
+{
+    display: flex;
+}
+
+
+
+.profilePhoto
+{
+    position:relative;
+    min-height:1px;
+    padding-left:15px;
+    padding-right:15px;
+    float:left;
+}
+.cardText
+{
+    position:relative;
+    min-height:1px;
+    padding-left:15px;
+    padding-right:15px;
+    float:left;
+    
+}
+
+.img-responsive
+{
+    display:block;
+    width:170px;
+    height:auto
+}
+/*Hobbies*/
+.imgcarousel
+{
+  max-height:500px;
+  max-width: 500px;
+}
+
+.carousel-item
+{
+    width:500px;
+}
+
+.hobbiesList
+{
+    display: flex;
+    align-items: center;
+    padding-left:10%;
+}
+
+.hobbiesListItem
+{
+    font-size: 23px;
+    line-height: 200%;
+}
+
+
+/*Language  */
+
+.languageCard
+{
+    margin-left:4%;
+    margin-right:4%;
+
+}
+
+.languageCardGroup
+{
+    text-align:center;
+    display:flex;
+    justify-content:center;
+}
+
+/*Technical skils */
+
+.imgTech
+{
+    width: auto;
+    height: 150px;
+}
+
+.TechList
+{
+    text-align:left;
+}
